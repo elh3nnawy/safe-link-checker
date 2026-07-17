@@ -1,0 +1,19 @@
+<!DOCTYPE html> 
+<html lang="en">    
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Safe Link Checker</title>
+    </head>
+    <body>
+        <h1>Safe Link Checker</h1>
+        <form method="POST">
+            <label for="url">Enter URL to check:</label>
+            <input type="text" id="url" name="url" required>
+            <button type="submit">Check Link</button>
+        </form>
+        {% if verdict %}
+            <p>{{ verdict }}</p>
+        {% endif %}
+    </body>
+</html>
