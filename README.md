@@ -10,7 +10,7 @@
 - Flask
 - Requests
 - Jinja2
-- Google Safe Browsing API ---
+- Google Safe Browsing API
 ## ⚙️ Setup Instructions 
 1. **Clone the repo** ```bash git clone https://github.com/elh3nnawy/safe-link-checker.git cd safe-link-checker
 2. **Install dependencies** --- pip install -r requirements.txt
